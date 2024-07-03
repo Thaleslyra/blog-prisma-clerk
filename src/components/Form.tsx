@@ -16,12 +16,13 @@ export default function Form() {
       />
       <textarea
         name="body"
-        placeholder="Body content for new post"
+        id=""
+        placeholder="Body content for new post.."
         className="border rounded px-3 py-2"
         rows={6}
         required
-      />
-      <button className="h-10 bg-blue-500 px-5 rounded text-white">
+      ></textarea>
+      <button className="h-10 bg-blue-500 text-white px-5 rounded">
         Submit
       </button>
     </form>
